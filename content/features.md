@@ -27,8 +27,8 @@ title only when its tab holds more than one.
 ### Tabs that say what is running
 
 A tab is named after its foreground job, like `vim` or `htop`, and falls
-back to the folder name when the shell is idle. The tabs share one row with
-the window buttons, as in iTerm2's Minimal theme.
+back to the folder name when the shell is idle. Tabs share one row with the
+window buttons, so the title bar takes no extra space.
 
 ### A file tree that follows your shell
 

@@ -4,13 +4,13 @@ title = "0xTerm"
 
 ## What is 0xTerm?
 
-0xTerm is a terminal for the Mac. It keeps the quiet, minimal window that
-made iTerm2 worth living in, and adds the three things you leave the
-terminal for most: a file tree, a file viewer and a Markdown preview.
+0xTerm is a minimal terminal for the Mac, drawn by the GPU, with file
+search and a file viewer built in. It is written from scratch in Rust.
 
-It is written in Rust and drawn by the GPU. Every cell, glyph and cursor is
-painted through Metal, and output is parsed off the main thread, so a
-flood of output should never stall the window.
+I live in the terminal, and I used iTerm2 for years. I wanted something
+smaller: a quiet window drawn by the GPU, and a way to find files and read
+them without leaving it. cmux, Warp and Wave do that, along with much more
+than I need. So I made 0xTerm.
 
 ## Why do I want it?
 
@@ -29,8 +29,8 @@ nothing else. See the [features](@/features.md).
 
 ## How do I use it?
 
-Open it and type. Your login shell starts as it does in Terminal or iTerm2,
-with your own `PATH` and dotfiles. The [docs](@/docs.md) list the shortcuts
+Open it and type. Your login shell starts with your own `PATH` and
+dotfiles. The [docs](@/docs.md) list the shortcuts
 and the config file, and the [FAQ](@/faq.md) answers the obvious questions.
 
 ## Download

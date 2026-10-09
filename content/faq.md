@@ -3,19 +3,6 @@ title = "FAQ"
 description = "Questions about 0xTerm."
 +++
 
-### Why another terminal?
-
-iTerm2 is the right shape, but every day still means leaving it for Finder,
-an editor or a browser just to look at a file. Warp, Wave and cmux add
-those panels, along with accounts, AI and cloud features. 0xTerm wants the
-panels and nothing else.
-
-### Is it iTerm2's code?
-
-No. 0xTerm is a new program in Rust. It borrows iTerm2's ideas and the way
-its pieces are divided (task, session, screen, window, toolbelt), but none
-of its code is translated.
-
 ### What does "drawn by the GPU" mean here?
 
 The window is built with GPUI, the UI framework from Zed, which renders
@@ -45,4 +32,4 @@ release.
 ### Why the name?
 
 `0x` is how a hex number begins, the prefix in front of every address and
-color code a terminal shows you. The logo puts it where iTerm2 puts its `$`.
+color code a terminal shows you. The logo puts it at the prompt, where a shell's `$` would be.

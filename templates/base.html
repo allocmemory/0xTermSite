@@ -94,6 +94,7 @@
   td { padding: .25em .8em .25em 0; vertical-align: top; }
 
   .page-title { margin-top: 0; }
+  .ico { width: .8em; height: .8em; margin-left: .25em; vertical-align: -.05em; fill: currentColor; }
   .muted { color: var(--muted); }
   .status { font-style: italic; }
 
@@ -127,6 +128,7 @@
 <a href="{{ config.base_url ~ item.path }}"{% if item.path == here %} aria-current="page"{% endif %}>{{ item.name }}</a>
 {%- endfor %}
 <a href="{{ config.extra.source }}">Source</a>
+<a href="{{ config.extra.donate }}">Donate{% include "partials/heart.html" %}</a>
 </nav>
 <hr>
 
@@ -134,7 +136,7 @@
 
 <footer>
 <hr>
-<p>0xTerm is in development. The source lives at <a href="{{ config.extra.source }}">github.com/allocmemory/0xTerm</a>. Made by <a href="https://allocmemory.com">allocmemory</a>. Contact: <a href="mailto:{{ config.extra.email }}">{{ config.extra.email }}</a>.</p>
+<p>0xTerm is in development. The source lives at <a href="{{ config.extra.source }}">github.com/allocmemory/0xTerm</a>. Made by <a href="https://allocmemory.com">allocmemory</a>. Contact: <a href="mailto:{{ config.extra.email }}">{{ config.extra.email }}</a>. Support it on <a href="{{ config.extra.donate }}">Patreon</a>.</p>
 </footer>
 </main>
 </body>

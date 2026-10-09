@@ -42,3 +42,10 @@ toward v0.1.</p>
 
 The [downloads page](@/downloads.md) says what v0.1 will ship as and how to
 follow along.
+
+## Donate
+
+0xTerm is free and built in my own time. If it's useful to you, you can
+back it on Patreon for $1, $2.50 or $5 a month, or any amount you choose.
+
+<p><a href="https://www.patreon.com/c/Allocmemory">Donate on Patreon<svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 14.5 1.9 8.6A3.9 3.9 0 0 1 7.4 3.1L8 3.7l.6-.6a3.9 3.9 0 0 1 5.5 5.5Z"/></svg></a></p>

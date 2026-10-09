@@ -1,0 +1,19 @@
+base_url = "https://0xterm.org"
+title = "0xTerm"
+description = "A GPU-drawn terminal for macOS with a file tree, file viewer and Markdown preview built in."
+generate_sitemap = true
+build_search_index = false
+
+[markdown]
+smart_punctuation = true
+
+[extra]
+tagline = "A GPU-drawn terminal for macOS, with the file tree built in."
+source = "https://github.com/allocmemory/0xTerm"
+nav = [
+  { name = "Home", path = "/" },
+  { name = "Features", path = "/features/" },
+  { name = "Docs", path = "/docs/" },
+  { name = "FAQ", path = "/faq/" },
+  { name = "Downloads", path = "/downloads/" },
+]

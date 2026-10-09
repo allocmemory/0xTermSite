@@ -1,0 +1,12 @@
+# Static Zola site served by Cloudflare Workers static assets.
+name = "oxterm-site"
+compatibility_date = "2026-10-01"
+
+[assets]
+directory = "./public"
+html_handling = "auto-trailing-slash"
+not_found_handling = "404-page"
+
+[[routes]]
+pattern = "0xterm.org"
+custom_domain = true

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block title %}Not found · {{ config.title }}{% endblock title %}
+
+{% block content %}
+<h2 class="page-title">Not found</h2>
+<p>Nothing lives at this address. <a href="{{ config.base_url }}/">Back to the home page</a>.</p>
+{% endblock content %}

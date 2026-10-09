@@ -2,4 +2,13 @@
 
 {% block content %}
 {{ section.content | safe }}
+
+<h2 id="download">Download</h2>
+{% include "partials/download.html" %}
+<p>Releases aren’t notarized by Apple yet, so the first launch needs one extra step. The <a href="{{ config.base_url }}/downloads/">downloads page</a> walks through it.</p>
+<p>0xTerm is licensed under the <a href="{{ config.extra.license }}">GPL v3</a>.</p>
+
+<h2 id="donate">Donate</h2>
+<p>0xTerm is free and built in my own time. If it’s useful to you, you can back it on Patreon for $1, $2.50 or $5 a month, or any amount you choose.</p>
+<p><a href="{{ config.extra.donate }}">Donate on Patreon{% include "partials/heart.html" %}</a></p>
 {% endblock content %}

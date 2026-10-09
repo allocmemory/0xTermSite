@@ -12,6 +12,8 @@ tagline = "A minimal terminal workspace for macOS, drawn by the GPU."
 source = "https://github.com/allocmemory/0xTerm"
 email = "allocx@mailbox.org"
 donate = "https://www.patreon.com/c/Allocmemory"
+license = "https://github.com/allocmemory/0xTerm/blob/main/LICENSE"
+
 nav = [
   { name = "Home", path = "/" },
   { name = "Features", path = "/features/" },
@@ -19,3 +21,14 @@ nav = [
   { name = "FAQ", path = "/faq/" },
   { name = "Downloads", path = "/downloads/" },
 ]
+
+# Bump these on every release; Home and Downloads read them.
+# content/downloads.md also names the version in the shasum line and known issues.
+[extra.release]
+version = "0.1.0"
+date = "October 9, 2026"
+dmg = "https://github.com/allocmemory/0xTerm/releases/download/v0.1.0/0xTerm-0.1.0.dmg"
+size = "25.6 MB"
+sha256 = "f5ea5d9f0e6412486a338a1be9a594ec8a9ac876226a88eebcc459d70678078c"
+notes = "https://github.com/allocmemory/0xTerm/releases/tag/v0.1.0"
+requires = "a Mac with Apple Silicon, running macOS 13 or later"

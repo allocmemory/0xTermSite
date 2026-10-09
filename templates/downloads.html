@@ -1,0 +1,13 @@
+{% extends "page.html" %}
+
+{% block content %}
+{%- set r = config.extra.release -%}
+<h2 class="page-title">{{ page.title }}</h2>
+
+<h3>0xTerm {{ r.version }}</h3>
+{% include "partials/download.html" %}
+<p>SHA-256: <code class="hash">{{ r.sha256 }}</code></p>
+<p><a href="{{ r.notes }}">Release notes</a> · <a href="{{ config.extra.source }}/releases">All releases</a> · <a href="{{ config.extra.source }}/blob/main/CHANGELOG.md">Changelog</a></p>
+
+{{ page.content | safe }}
+{% endblock content %}

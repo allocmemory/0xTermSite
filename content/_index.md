@@ -5,12 +5,15 @@ title = "0xTerm"
 ## What is 0xTerm?
 
 0xTerm is a minimal terminal for the Mac, drawn by the GPU, with file
-search and a file viewer built in. It is written from scratch in Rust.
+search and a file viewer built in. It is written from scratch in Rust, and
+every frame is drawn through Metal.
 
 I live in the terminal, and I used iTerm2 for years. I wanted something
 smaller: a quiet window drawn by the GPU, and a way to find files and read
 them without leaving it. cmux, Warp and Wave do that, along with much more
 than I need. So I made 0xTerm.
+
+<img class="shot" src="/screenshot.png" width="1240" height="800" alt="0xTerm with the file tree on the left, a shell showing grep output in the middle, and the file viewer on the right open at a find match.">
 
 ## Why do I want it?
 
@@ -30,22 +33,8 @@ nothing else. See the [features](@/features.md).
 ## How do I use it?
 
 Open it and type. Your login shell starts with your own `PATH` and
-dotfiles. The [docs](@/docs.md) list the shortcuts
-and the config file, and the [FAQ](@/faq.md) answers the obvious questions.
-Got a problem or an idea? Email me at
+dotfiles, even when you launch from the Dock. The [docs](@/docs.md) list
+the shortcuts and the config file, and the [FAQ](@/faq.md) answers the
+obvious questions. Found a bug? Open an
+[issue](https://github.com/allocmemory/0xTerm/issues), or email me at
 [allocx@mailbox.org](mailto:allocx@mailbox.org).
-
-## Download
-
-<p class="status">There is no build yet. 0xTerm is in development, working
-toward v0.1.</p>
-
-The [downloads page](@/downloads.md) says what v0.1 will ship as and how to
-follow along.
-
-## Donate
-
-0xTerm is free and built in my own time. If it's useful to you, you can
-back it on Patreon for $1, $2.50 or $5 a month, or any amount you choose.
-
-<p><a href="https://www.patreon.com/c/Allocmemory">Donate on Patreon<svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 14.5 1.9 8.6A3.9 3.9 0 0 1 7.4 3.1L8 3.7l.6-.6a3.9 3.9 0 0 1 5.5 5.5Z"/></svg></a></p>

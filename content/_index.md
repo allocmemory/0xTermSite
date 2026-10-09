@@ -32,6 +32,8 @@ nothing else. See the [features](@/features.md).
 Open it and type. Your login shell starts with your own `PATH` and
 dotfiles. The [docs](@/docs.md) list the shortcuts
 and the config file, and the [FAQ](@/faq.md) answers the obvious questions.
+Got a problem or an idea? Email me at
+[allocx@mailbox.org](mailto:allocx@mailbox.org).
 
 ## Download
 

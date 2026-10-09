@@ -10,6 +10,7 @@ smart_punctuation = true
 [extra]
 tagline = "A minimal terminal workspace for macOS, drawn by the GPU."
 source = "https://github.com/allocmemory/0xTerm"
+email = "allocx@mailbox.org"
 nav = [
   { name = "Home", path = "/" },
   { name = "Features", path = "/features/" },

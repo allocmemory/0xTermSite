@@ -25,10 +25,10 @@ nav = [
 # Bump these on every release; Home and Downloads read them.
 # content/downloads.md also names the version in the shasum line and known issues.
 [extra.release]
-version = "0.1.0"
-date = "October 9, 2026"
-dmg = "https://github.com/allocmemory/0xTerm/releases/download/v0.1.0/0xTerm-0.1.0.dmg"
+version = "0.1.1"
+date = "October 15, 2026"
+dmg = "https://github.com/allocmemory/0xTerm/releases/download/v0.1.1/0xTerm-0.1.1.dmg"
 size = "25.6 MB"
-sha256 = "f5ea5d9f0e6412486a338a1be9a594ec8a9ac876226a88eebcc459d70678078c"
-notes = "https://github.com/allocmemory/0xTerm/releases/tag/v0.1.0"
+sha256 = "320a7d76caf5471dd45f3be0571efa56647e1563d05b7406c9e726c2313d8996"
+notes = "https://github.com/allocmemory/0xTerm/releases/tag/v0.1.1"
 requires = "a Mac with Apple Silicon, running macOS 13 or later"

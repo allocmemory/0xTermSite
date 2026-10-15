@@ -24,12 +24,12 @@ After that it opens like any other app.
 ### Check the download
 
 ```sh
-shasum -a 256 ~/Downloads/0xTerm-0.1.0.dmg
+shasum -a 256 ~/Downloads/0xTerm-0.1.1.dmg
 ```
 
 The output should match the SHA-256 above.
 
-### Known issues in 0.1.0
+### Known issues in 0.1.1
 
 - Expanding Desktop, Documents or Downloads in the file tree shows the
   macOS privacy prompt, and the window waits until you answer it.
